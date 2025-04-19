@@ -7,6 +7,7 @@ import styled from 'styled-components';
 import CertificateTemplate from './components/CertificateTemplate';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
+import Login from './components/auth/Login';
 
 const DashboardLayout = styled.div`
   display: flex;
@@ -185,7 +186,7 @@ function App() {
       
       <MainContent>
         <Header title="Certificate Generator" />
-        
+        <Login/>
         <Row>
           <Col md={6}>
             <Card>
